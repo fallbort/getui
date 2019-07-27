@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Cncal\\Getui\\" : "src/"
+            "Fallbort\\Getui\\" : "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cncal\\Getui\\GetuiServiceProvider"
+                "Fallbort\\Getui\\GetuiServiceProvider"
             ],
             "aliases": {
-                "Getui": "Cncal\\Getui\\Facades\\Getui"
+                "Getui": "Fallbort\\Getui\\Facades\\Getui"
             }
         }
     }

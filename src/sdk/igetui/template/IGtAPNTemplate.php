@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Template;
+namespace Fallbort\Getui\Sdk\IGetui\Template;
 
 class IGtAPNTemplate extends IGtBaseTemplate
 {

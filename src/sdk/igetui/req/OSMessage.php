@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Req;
+namespace Fallbort\Getui\Sdk\IGetui\Req;
 
-use Cncal\Getui\Sdk\Protobuf\PBMessage;
+use Fallbort\Getui\Sdk\Protobuf\PBMessage;
 
 class OSMessage extends PBMessage
 {

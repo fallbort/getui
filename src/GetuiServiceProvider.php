@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui;
+namespace Fallbort\Getui;
 
 use Illuminate\Support\ServiceProvider;
 

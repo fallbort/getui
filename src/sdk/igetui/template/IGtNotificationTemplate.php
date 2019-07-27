@@ -1,12 +1,12 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Template;
+namespace Fallbort\Getui\Sdk\IGetui\Template;
 
-use Cncal\Getui\Sdk\IGetui\Req\ActionChain;
-use Cncal\Getui\Sdk\IGetui\Req\InnerFiled;
-use Cncal\Getui\Sdk\IGetui\Req\ActionChain_Type;
-use Cncal\Getui\Sdk\IGetui\Req\InnerFiled_Type;
-use Cncal\Getui\Sdk\IGetui\Req\AppStartUp;
+use Fallbort\Getui\Sdk\IGetui\Req\ActionChain;
+use Fallbort\Getui\Sdk\IGetui\Req\InnerFiled;
+use Fallbort\Getui\Sdk\IGetui\Req\ActionChain_Type;
+use Fallbort\Getui\Sdk\IGetui\Req\InnerFiled_Type;
+use Fallbort\Getui\Sdk\IGetui\Req\AppStartUp;
 
 class IGtNotificationTemplate extends IGtBaseTemplate
 {

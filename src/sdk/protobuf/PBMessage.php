@@ -1,20 +1,20 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Protobuf;
+namespace Fallbort\Getui\Sdk\Protobuf;
 
 /**
  * Use of all files needed to parse messages
  * @author Nikolai Kordulla
  */
 
-use Cncal\Getui\Sdk\Protobuf\Encoding\PBBase128;
-use Cncal\Getui\Sdk\Protobuf\Type\PBScalar;
-use Cncal\Getui\Sdk\Protobuf\Type\PBEnum;
-use Cncal\Getui\Sdk\Protobuf\Type\PBBytes;
-use Cncal\Getui\Sdk\Protobuf\Type\PBString;
-use Cncal\Getui\Sdk\Protobuf\Type\PBInt;
-use Cncal\Getui\Sdk\Protobuf\Reader\PBInputReader;
-use Cncal\Getui\Sdk\Protobuf\Reader\PBInputStringReader;
+use Fallbort\Getui\Sdk\Protobuf\Encoding\PBBase128;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBScalar;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBEnum;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBBytes;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBString;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBInt;
+use Fallbort\Getui\Sdk\Protobuf\Reader\PBInputReader;
+use Fallbort\Getui\Sdk\Protobuf\Reader\PBInputStringReader;
 
 /**
  * Abstract Message class

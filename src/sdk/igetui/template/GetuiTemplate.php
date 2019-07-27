@@ -1,10 +1,10 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Template;
+namespace Fallbort\Getui\Sdk\IGetui\Template;
 
-use Cncal\Getui\Sdk\IGetui\IGtAPNPayload;
-use Cncal\Getui\Sdk\IGetui\Msg\DictionaryAlertMsg;
-use Cncal\Getui\Sdk\IGetui\Msg\SimpleAlertMsg;
+use Fallbort\Getui\Sdk\IGetui\IGtAPNPayload;
+use Fallbort\Getui\Sdk\IGetui\Msg\DictionaryAlertMsg;
+use Fallbort\Getui\Sdk\IGetui\Msg\SimpleAlertMsg;
 
 class GetuiTemplate
 {

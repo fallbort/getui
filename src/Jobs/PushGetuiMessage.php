@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Jobs;
+namespace Fallbort\Getui\Jobs;
 
-use Cncal\Getui\Sdk\IGtPush;
+use Fallbort\Getui\Sdk\IGtPush;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
@@ -42,7 +42,7 @@ class PushGetuiMessage implements ShouldQueue
     /**
      * Create a new job instance.
      *
-     * @param \Cncal\Getui\Sdk\IGtPush $igt
+     * @param \Fallbort\Getui\Sdk\IGtPush $igt
      * @param $function
      * @param $message
      * @param $extra_param

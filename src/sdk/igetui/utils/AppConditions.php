@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Utils;
+namespace Fallbort\Getui\Sdk\IGetui\Utils;
 
 class AppConditions
 {

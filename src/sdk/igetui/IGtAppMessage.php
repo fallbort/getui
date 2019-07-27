@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui;
+namespace Fallbort\Getui\Sdk\IGetui;
 
 class IGtAppMessage extends IGtMessage
 {

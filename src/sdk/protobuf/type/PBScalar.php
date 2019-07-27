@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Protobuf\Type;
+namespace Fallbort\Getui\Sdk\Protobuf\Type;
 
-use Cncal\Getui\Sdk\Protobuf\PBMessage;
+use Fallbort\Getui\Sdk\Protobuf\PBMessage;
 
 /**
  * @author Nikolai Kordulla

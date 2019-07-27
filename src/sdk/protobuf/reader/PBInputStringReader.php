@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Protobuf\Reader;
+namespace Fallbort\Getui\Sdk\Protobuf\Reader;
 
 /**
  * Reads string input

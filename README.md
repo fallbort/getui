@@ -13,17 +13,17 @@ $ composer require cncal/getui
 * 如果 Laravel 版本小于5.5：
     * 添加 `GetuiServiceProvider` 至 `config/app` 的 `providers`：
     ```php
-    Cncal\Getui\GetuiServiceProvider::class,
+    Fallbort\Getui\GetuiServiceProvider::class,
     ```
 
     * 添加 Facade 至 `config/app` 的 `aliases`：
     ```php
-    'Getui' => Cncal\Getui\Facades\Getui::class,
+    'Getui' => Fallbort\Getui\Facades\Getui::class,
     ```
 
 * 发布配置文件 `config/getui.php`：
 ```php
-$ php artisan vendor:publish --provider="Cncal\Getui\GetuiServiceProvider"
+$ php artisan vendor:publish --provider="Fallbort\Getui\GetuiServiceProvider"
 ```
 
 ## 配置

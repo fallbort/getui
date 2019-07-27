@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui;
+namespace Fallbort\Getui\Sdk\IGetui;
 
 Class IGtSingleMessage extends IGtMessage
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Req;
+namespace Fallbort\Getui\Sdk\IGetui\Req;
 
-use Cncal\Getui\Sdk\Protobuf\Type\PBEnum;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBEnum;
 
 class GtAuthResult_GtAuthResultCode extends PBEnum
 {

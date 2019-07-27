@@ -1,10 +1,10 @@
 <?php
 
-namespace Cncal\Getui\Sdk;
+namespace Fallbort\Getui\Sdk;
 
-use Cncal\Getui\Sdk\IGetui\SingleBatchItem;
-use Cncal\Getui\Sdk\IGetui\Utils\GTConfig;
-use Cncal\Getui\Sdk\IGetui\SingleBatchRequest;
+use Fallbort\Getui\Sdk\IGetui\SingleBatchItem;
+use Fallbort\Getui\Sdk\IGetui\Utils\GTConfig;
+use Fallbort\Getui\Sdk\IGetui\SingleBatchRequest;
 
 /**
  * Created by PhpStorm.

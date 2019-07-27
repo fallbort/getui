@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Protobuf\Reader;
+namespace Fallbort\Getui\Sdk\Protobuf\Reader;
 
-use Cncal\Getui\Sdk\Protobuf\Encoding\PBBase128;
+use Fallbort\Getui\Sdk\Protobuf\Encoding\PBBase128;
 
 /**
  * Abstract class for an input reader

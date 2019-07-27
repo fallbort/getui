@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Exception;
+namespace Fallbort\Getui\Sdk\Exception;
 
 use Exception;
 

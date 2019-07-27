@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\Protobuf\Encoding;
+namespace Fallbort\Getui\Sdk\Protobuf\Encoding;
 
 /**
  * Base 128 varints - decodes and encodes base128 varints to/from decimal

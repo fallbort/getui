@@ -1,14 +1,14 @@
 <?php
 
-namespace Cncal\Getui;
+namespace Fallbort\Getui;
 
-use Cncal\Getui\Sdk\IGtPush;
-use Cncal\Getui\Sdk\IGetui\IGtTarget;
-use Cncal\Getui\Jobs\PushGetuiMessage;
-use Cncal\Getui\Sdk\IGetui\IGtAppMessage;
-use Cncal\Getui\Sdk\IGetui\IGtListMessage;
-use Cncal\Getui\Sdk\IGetui\IGtSingleMessage;
-use Cncal\Getui\Sdk\IGetui\Template\GetuiTemplate;
+use Fallbort\Getui\Sdk\IGtPush;
+use Fallbort\Getui\Sdk\IGetui\IGtTarget;
+use Fallbort\Getui\Jobs\PushGetuiMessage;
+use Fallbort\Getui\Sdk\IGetui\IGtAppMessage;
+use Fallbort\Getui\Sdk\IGetui\IGtListMessage;
+use Fallbort\Getui\Sdk\IGetui\IGtSingleMessage;
+use Fallbort\Getui\Sdk\IGetui\Template\GetuiTemplate;
 
 class Getui
 {
@@ -85,7 +85,7 @@ class Getui
      *
      * @param $data
      *
-     * @return bool|\Cncal\Getui\Sdk\Array
+     * @return bool|\Fallbort\Getui\Sdk\Array
      */
     public function pushMessageToSingle($data)
     {

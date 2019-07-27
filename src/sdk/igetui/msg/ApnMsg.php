@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Msg;
+namespace Fallbort\Getui\Sdk\IGetui\Msg;
 
 interface ApnMsg
 {

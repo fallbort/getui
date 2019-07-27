@@ -1,6 +1,6 @@
 <?php
 
-namespace Cncal\Getui\Facades;
+namespace Fallbort\Getui\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

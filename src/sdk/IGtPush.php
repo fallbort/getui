@@ -1,12 +1,12 @@
 <?php
 
-namespace Cncal\Getui\Sdk;
+namespace Fallbort\Getui\Sdk;
 
-use Cncal\Getui\Sdk\IGetui\Utils\GTConfig;
-use Cncal\Getui\Sdk\IGetui\Utils\ApiUrlRespectUtils;
-use Cncal\Getui\Sdk\IGetui\Utils\HttpManager;
-use Cncal\Getui\Sdk\IGetui\IGtListMessage;
-use Cncal\Getui\Sdk\IGetui\Utils\LangUtils;
+use Fallbort\Getui\Sdk\IGetui\Utils\GTConfig;
+use Fallbort\Getui\Sdk\IGetui\Utils\ApiUrlRespectUtils;
+use Fallbort\Getui\Sdk\IGetui\Utils\HttpManager;
+use Fallbort\Getui\Sdk\IGetui\IGtListMessage;
+use Fallbort\Getui\Sdk\IGetui\Utils\LangUtils;
 
 Class IGtPush
 {

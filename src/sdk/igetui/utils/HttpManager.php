@@ -1,8 +1,8 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Utils;
+namespace Fallbort\Getui\Sdk\IGetui\Utils;
 
-use Cncal\Getui\Sdk\Exception\GetuiException;
+use Fallbort\Getui\Sdk\Exception\GetuiException;
 
 class HttpManager
 {

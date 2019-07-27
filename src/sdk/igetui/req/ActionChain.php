@@ -1,9 +1,9 @@
 <?php
 
-namespace Cncal\Getui\Sdk\IGetui\Req;
+namespace Fallbort\Getui\Sdk\IGetui\Req;
 
-use Cncal\Getui\Sdk\Protobuf\PBMessage;
-use Cncal\Getui\Sdk\Protobuf\Type\PBBool;
+use Fallbort\Getui\Sdk\Protobuf\PBMessage;
+use Fallbort\Getui\Sdk\Protobuf\Type\PBBool;
 
 class ActionChain extends PBMessage
 {
