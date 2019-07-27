@@ -1,5 +1,5 @@
 {
-    "name": "cncal/getui",
+    "name": "fallbort/getui",
     "description": "A getui sdk package for laravel.",
     "keywords": ["laravel", "getui"],
     "type": "library",
