@@ -102,9 +102,11 @@ Getui::pushMessageToApp($data);
             'logo_url'  => '', // 通知图标url地址，string(100), 必填
             'transmission_type'    => 2, // 是否立即启动应用：1 立即启动 2 等待客户端自启动，必填
             'transmission_content' => '', // 透传内容，不支持转义字符，string(2048), 必填
-        ]
+        ],
         'cid' => 'target cid', // 推送通知至指定用户时填写
         'cid_list' => ['cid1','cid2',...], // 推送通知至指定用户列表时填写
+        'alias' => 'target cid', // 推送通知至指定用户时填写
+                'alias_list' => ['cid1','cid2',...], // 推送通知至指定用户列表时填写
     ];
     ```
     * [点击通知打开网页模板](http://docs.getui.com/server/php/template/#2)
