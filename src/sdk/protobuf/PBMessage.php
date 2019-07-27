@@ -384,8 +384,8 @@ abstract class PBMessage
     private function getOriginClassName($className)
     {
         $namespace_array = [
-            "Cncal\\Getui\\Sdk\\Protobuf\\Type\\",
-            "Cncal\\Getui\\Sdk\\IGetui\\Req\\",
+            "Fallbort\\Getui\\Sdk\\Protobuf\\Type\\",
+            "Fallbort\\Getui\\Sdk\\IGetui\\Req\\",
         ];
 
         if (substr($className, 0, 2) == 'PB') {

@@ -179,7 +179,7 @@ class Getui
 
         // 接收方列表
         $target_list = [];
-        if ($data['cid_list'] != null){
+        if (array_key_exists('cid_list',$data) && $data['cid_list'] != null){
             foreach ($data['cid_list'] as $cid) {
                 $target = new IGtTarget();
                 $target->set_appId($this->app_id);
@@ -187,7 +187,7 @@ class Getui
                 $target_list[] = $target;
             }
         }
-        if ($data['alias_list'] != null) {
+        if (array_key_exists('alias_list',$data) && $data['alias_list'] != null) {
             foreach ($data['alias_list'] as $alias) {
                 $target = new IGtTarget();
                 $target->set_appId($this->app_id);

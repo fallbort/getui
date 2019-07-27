@@ -3,6 +3,8 @@
 namespace Fallbort\Getui;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\Application as LaravelApplication;
+use Laravel\Lumen\Application as LumenApplication;
 
 class GetuiServiceProvider extends ServiceProvider
 {
