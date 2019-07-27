@@ -93,6 +93,7 @@ class Getui
         $template_type = $data['template_type'];
         $template_data = $data['template_data'];
         $cid = $data['cid'];
+        $alias = $data['$alias'];
 
         $is_off_line = isset($data['template_data']['is_offline']) ?
                        (bool)$data['template_data']['is_offline'] : $this->is_offline;
@@ -121,7 +122,8 @@ class Getui
         // 接收方
         $target = new IGtTarget();
         $target->set_appId($this->app_id);
-        $target->set_clientId($cid);
+        if ($cid != null) {$target->set_clientId($cid);}
+        if ($alias != null) {$target->set_alias($alias);}
 
         // 使用队列
         if ($this->queue_is_used) {
@@ -176,11 +178,22 @@ class Getui
         $contentId = $this->igt->getContentId($message);
 
         // 接收方列表
-        foreach ($data['cid_list'] as $cid) {
-            $target = new IGtTarget();
-            $target->set_appId($this->app_id);
-            $target->set_clientId($cid);
-            $target_list[] = $target;
+        $target_list = [];
+        if ($data['cid_list'] != null){
+            foreach ($data['cid_list'] as $cid) {
+                $target = new IGtTarget();
+                $target->set_appId($this->app_id);
+                $target->set_clientId($cid);
+                $target_list[] = $target;
+            }
+        }
+        if ($data['alias_list'] != null) {
+            foreach ($data['alias_list'] as $alias) {
+                $target = new IGtTarget();
+                $target->set_appId($this->app_id);
+                $target->set_alias($alias);
+                $target_list[] = $target;
+            }
         }
 
         // 使用队列
