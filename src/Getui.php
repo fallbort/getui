@@ -127,9 +127,8 @@ class Getui
 
         // 使用队列
         if ($this->queue_is_used) {
-            PushGetuiMessage::dispatch($this->igt, 'pushMessageToSingle', $message, $target)
-                            ->onConnection($this->queue_connection)
-                            ->onQueue($this->queue_queue);
+            dispatch(new PushGetuiMessage($this->igt, 'pushMessageToList', $message, $target));
+
 
             return true;
         }
@@ -198,9 +197,8 @@ class Getui
 
         // 使用队列
         if ($this->queue_is_used) {
-            PushGetuiMessage::dispatch($this->igt, 'pushMessageToList', $contentId, $target_list)
-                            ->onConnection($this->queue_connection)
-                            ->onQueue($this->queue_queue);
+            dispatch(new PushGetuiMessage($this->igt, 'pushMessageToList', $contentId, $target_list));
+
 
             return true;
         }
@@ -250,9 +248,8 @@ class Getui
 
         // 使用队列
         if ($this->queue_is_used) {
-            PushGetuiMessage::dispatch($this->igt, 'pushMessageToApp', $message)
-                            ->onConnection($this->queue_connection)
-                            ->onQueue($this->queue_queue);
+            dispatch(new PushGetuiMessage($this->igt, 'pushMessageToList', $message));
+
 
             return true;
         }
